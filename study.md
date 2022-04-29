@@ -21,14 +21,7 @@ __
 
 2.ㅇㅇㅇ    
 
-<<<<<<< HEAD
-## 깃 허브 업로드 순서
-=======
 # 깃 허브 업로드 순서
-<<<<<<< HEAD
->>>>>>> 81def9d0e85963bdb25ff4dc7bd8446f08e161c9
-=======
->>>>>>> 81def9d0e85963bdb25ff4dc7bd8446f08e161c9
 1.수정후 저장 M 생성
 ```
 ```
@@ -51,29 +44,18 @@ git log
 git push origin master
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-## 깃 다운로드 
-=======
 # 깃 다운로드 
->>>>>>> 81def9d0e85963bdb25ff4dc7bd8446f08e161c9
-=======
-# 깃 다운로드 
->>>>>>> 81def9d0e85963bdb25ff4dc7bd8446f08e161c9
-1. 깃 클론 클릭
+1.깃 클론 클릭
 2.깃 클론 명령어 작성
 ```
-
+git clone url
 ```
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-## html 한번에 나오는 커맨드
+# html 한번에 나오는 커맨드
 ```
 ! + tab 사용하면 head, body 가 바로 나온다
 ```
 
-## 이미지 업로드
+# 이미지 업로드
 ![이미지 이름](https://mblogthumb-phinf.pstatic.net/MjAxODAzMjZfMTU3/MDAxNTIyMDQ5NTgwMDMy.GwbG30bbo5Ie7Ph6hdqzqFmZgnJIHvOT3PwmylbISvcg.AsqC0vlRZTILTYZVkQEh_jV7aOIw-BIA7ngrKJFI1Lkg.PNG.canonkoreacamera/%EC%A0%9C%EB%AA%A9_%EC%97%86%EC%9D%8C-1.png?type=w800)<br><br>
 
 <img src = "https://mblogthumb-phinf.pstatic.net/MjAxODAzMjZfMTU3/MDAxNTIyMDQ5NTgwMDMy.GwbG30bbo5Ie7Ph6hdqzqFmZgnJIHvOT3PwmylbISvcg.AsqC0vlRZTILTYZVkQEh_jV7aOIw-BIA7ngrKJFI1Lkg.PNG.canonkoreacamera/%EC%A0%9C%EB%AA%A9_%EC%97%86%EC%9D%8C-1.png?type=w800"  width="100px" height="100px"/>
@@ -82,22 +64,35 @@ git push origin master
 ![이미지 이름](링크 주소)
 ```
 
-## 꺽새(>) 활용(블럭 인용)
+# 꺽새(>) 활용(블럭 인용)
 >한줄평 : ~~~
 >> 꺽새 두개를 쓰면 한번더 들어간다
 >>> 여러개도 가능하다   
-=======
-=======
->>>>>>> 81def9d0e85963bdb25ff4dc7bd8446f08e161c9
 # html 한번에 나오는 커맨드
 ```
 ! + tab 사용하면 head, body 가 바로 나온다
 ```
 
-### 새로 배운 명령어
+# 새로 배운 명령어
+1. 깃 리셋 시키는 방법
+```
 git reset HEAD~1  
+```
+1. 터미널에서 저장소 이동 시키는 방법
+```
 cd ../  
+```
+1. 깃 원격 url 주소확인 방법
+```
 git remote add origin url  
 git remote set-url origin "url주소"  
 git remote -v  
+```
+1. 깃 push 상황때 오류 해결 방법
+```
+1. 강제push
+git push origin master -force
+
+2. 관련없는 걸 허락해서 풀 시키기
 git pull origin master --allow-unrelated-histories 
+```
