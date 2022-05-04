@@ -72,14 +72,14 @@
 *이텔릭체*<Br>
 _밑줄 사용_<br>
 **굵게 하는법**<br>
-__밑줄 과 굴게__<br>
+__밑줄 과 굵게__<br>
 ~~취소선~~
 
 ```
 *이텔릭체*
 _밑줄 사용_
 **굵게 하는법**
-__밑줄 과 굴게__
+__밑줄 과 굵게__
 ~~취소선~~
 ```
 문장 중간에 사용 할 경우 **띄어쓰기** 를 하는 것이 좋다<br>
@@ -118,6 +118,15 @@ __밑줄 과 굴게__
 
 ```
 ![이미지 이름](링크 주소) width="픽셀크기", height="픽셀크기"로 줄일수도 있다.
+```
+## 이미지 정렬
+<p align = "center">
+<img src = "https://mblogthumb-phinf.pstatic.net/MjAxODAzMjZfMTU3/MDAxNTIyMDQ5NTgwMDMy.GwbG30bbo5Ie7Ph6hdqzqFmZgnJIHvOT3PwmylbISvcg.AsqC0vlRZTILTYZVkQEh_jV7aOIw-BIA7ngrKJFI1Lkg.PNG.canonkoreacamera/%EC%A0%9C%EB%AA%A9_%EC%97%86%EC%9D%8C-1.png?type=w800"  width="100px" height="100px"/>
+</p>
+
+```
+<p align="center,right"><img src="image_src"></p>
+가운데, 오른쪽 정렬, 왼쪽 정렬은 기본값
 ```
 
 ## 꺽새(>) 활용(블럭 인용)
