@@ -1,8 +1,16 @@
+header{
+    width:100%;
+    position:absolute;
+    top:0;
+}
+
 div.logo_default{
     height:30px;
      width:220px;
 }
 div.green_window{
-    height:24px;
-    width:444px;
+    width: 444px;
+    height: 24px;
+    padding: 13px 15px;
+    margin: 1px;
 }
