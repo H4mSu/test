@@ -1,5 +1,4 @@
-header{
-    width:100%;
+div.header{
     display: flex;
     justify-content: center;
     top:0;
@@ -7,7 +6,8 @@ header{
 
 div.logo_default{
     height:30px;
-     width:220px;
+    width:220px;
+    background-image:url(./png/photologo.png);
 }
 div.green_window{
     width: 444px;
