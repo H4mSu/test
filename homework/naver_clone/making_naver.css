@@ -8,8 +8,16 @@ div.logo_default{
     height:30px;
     width:220px;
     background-image:url(./png/photologo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 div.green_window{
+    width: 444px;
+    height: 24px;
+    padding: 13px 15px;
+    margin: 1px;
+}       
+#input1{
     width: 444px;
     height: 24px;
     padding: 13px 15px;
