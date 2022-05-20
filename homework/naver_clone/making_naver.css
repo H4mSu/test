@@ -1,6 +1,7 @@
-div.header{
+#header{
     display: flex;
     justify-content: center;
+    display: flex;
     top:0;
 }
 
@@ -12,14 +13,32 @@ div.logo_default{
     background-repeat: no-repeat;
 }
 div.green_window{
-    width: 444px;
-    height: 24px;
+    width: 582px;
+    height: 50px;
     padding: 13px 15px;
     margin: 1px;
+    border: 2px solid #19ce60;
 }       
 #input1{
     width: 444px;
     height: 24px;
     padding: 13px 15px;
     margin: 1px;
+    background-color: #fff;
+    color : #000;
+    border: #fff;
+}
+
+#submit1{
+    width: 50px;
+    height: 56px;
+    border: 1px;
+    background-color: #19ce60;
+    align-self: flex-end;
+}
+div.service_area{
+    position:absolute;
+    top: 12px;
+    right: 27px;
+    font-size: 12px;
 }
