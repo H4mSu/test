@@ -170,3 +170,6 @@ Link: [Google][googlelink]
 ```
 ! + tab 사용하면 head, body 가 바로 나온다
 ```
+
+## 중복으로 추가할때 
+li.클래스네임*갯수

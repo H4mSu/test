@@ -1,8 +1,17 @@
-#header{
+/* #header{
     display: flex;
     justify-content: center;
-    display: flex;
     top:0;
+} */
+
+div.logo_area{
+    display: flex;
+    justify-content: center;
+    top:0;
+    border-bottom:solid#000;
+    width: 1130px;
+    height: 160px;
+    align-items: center;
 }
 
 div.logo_default{
@@ -13,9 +22,8 @@ div.logo_default{
     background-repeat: no-repeat;
 }
 div.green_window{
-    width: 582px;
-    height: 50px;
-    padding: 13px 15px;
+    width: 586px;
+    height: 56px;
     margin: 1px;
     border: 2px solid #19ce60;
 }       
@@ -27,6 +35,7 @@ div.green_window{
     background-color: #fff;
     color : #000;
     border: #fff;
+    outline: none;
 }
 
 #submit1{
@@ -35,10 +44,36 @@ div.green_window{
     border: 1px;
     background-color: #19ce60;
     align-self: flex-end;
+    position: relative;
 }
 div.service_area{
     position:absolute;
     top: 12px;
     right: 27px;
     font-size: 12px;
+}
+
+div.gnb{
+    display: flex;
+    justify-content: space-between;
+}
+ul.list_nav_fix{
+    list-style: none;
+    display: flex;
+}
+li{
+
+    margin-left: 10px;
+}
+
+ul.list_nav_fix li.nav_item a{
+    text-decoration:none;
+    color: #000;
+}
+
+ul.list_nav_fix li.nav_item:nth-child(-n+7) a{
+    color: #03c75a;
+}
+div.weather{
+    margin-right: 50px;
 }
