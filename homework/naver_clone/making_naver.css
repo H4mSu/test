@@ -8,7 +8,6 @@ div.logo_area{
     display: flex;
     justify-content: center;
     top:0;
-    border-bottom:solid#000;
     width: 1130px;
     height: 160px;
     align-items: center;
@@ -47,6 +46,7 @@ div.green_window{
     position: relative;
 }
 div.service_area{
+    align-self: flex-end;
     position:absolute;
     top: 12px;
     right: 27px;
@@ -56,6 +56,8 @@ div.service_area{
 div.gnb{
     display: flex;
     justify-content: space-between;
+    border-bottom:solid rgb(32, 32, 32);
+    border-top: solid rgb(32, 32, 32);
 }
 ul.list_nav_fix{
     list-style: none;
@@ -76,4 +78,44 @@ ul.list_nav_fix li.nav_item:nth-child(-n+7) a{
 }
 div.weather{
     margin-right: 50px;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+#newsstand_header{
+    width: 750px;
+    height: 49px;
+    background-color: antiquewhite;
+}
+#newsstand_title{
+    width: 750px;
+    height: 18px;
+    background-color:brown;
+    padding-top: 22px;
+    padding-bottom: 16px;
+    float: left;
+}
+#newsstand_view{
+    width: 750px;
+    height: 262px;
+    background-color: blueviolet;
+}
+#themecast_contents{
+    width: 750px;
+    height: 2214.8px;
+    background-color: chartreuse;
+}
+
+#account{padding: 16px 16px 12px 17px;
+    background-color: #f7f9fa;
+    border: 1px solid #dae1e6;
+}
+
+.login_msg{
+    color: rgb(128,128,128);
+    font-size: 12px;
+    padding-left: 3px;
+    width: 315px;
+    height: 16px;
 }
