@@ -4,6 +4,7 @@
     top:0;
 } */
 
+/* 로고바 */
 div.logo_area{
     display: flex;
     justify-content: center;
@@ -52,7 +53,7 @@ div.service_area{
     right: 27px;
     font-size: 12px;
 }
-
+/* 네비게이션 바 */
 div.gnb{
     display: flex;
     justify-content: space-between;
@@ -84,21 +85,24 @@ div.weather{
     align-items: center;
     height: 52px;
 }
+
 #container{
     display: flex;
     justify-content: space-around;
 }
+/*메인 왼쪽 시작*/
 #newsstand_header{
-    width: 750px;
-    height: 49px;
+    width: 718px;
+    height: 24px;
+    padding:12px 15px 11px 15px;
+    border:1px solid #dae1e6;
     background-color: antiquewhite;
 }
 #newsstand_title{
     width: 750px;
     height: 18px;
     background-color:brown;
-    padding-top: 22px;
-    padding-bottom: 16px;
+    padding: 22px 0 16px;
     float: left;
 }
 #newsstand_view{
@@ -116,7 +120,10 @@ div.weather{
     background-color: #f7f9fa;
     border: 1px solid #dae1e6;
     text-decoration: none;
+    width: 315px;
+    height: 105px;
 }
+/* 메인 오른쪽 시작 */
 
 .login_msg{
     color: rgb(128,128,128);
@@ -136,10 +143,13 @@ a.link_login{
     text-align: center;
     text-decoration: none;
     margin-top: 11px;
+    font-weight: 700; /*크기 조절이 안됨*/
 }
+
 .sub_area{
     margin: 14px 8px 0 4px;
     display: flex;
+    justify-content: space-between;
     font-size: 12px;
 }
 .link_look{
@@ -148,7 +158,52 @@ a.link_login{
 }
 .link_join{
     text-decoration: none;
-    align-self: right;
     color: #404040;
-    
+}
+
+div.timesquare{/*카드바*/
+    display: flex;
+    width: 348px;
+    height: 47px;
+    border: 1px solid #dae1e6;
+    margin:12px 0;
+    position: relative;
+}
+div.card_wrap{
+    width: 281px;
+    height: 47px;
+    padding-right: 67px;
+    background-color: cyan;
+}
+div.card_nav{
+    width: 47px;
+    height: 24px;
+    background-color: bisque;
+    align-items: flex-end; /*오른쪽으로 보내고싶어요!*/
+}
+a.nav_btn{
+    width: 24px;
+    height: 24px;
+}
+div.video_view{
+    width: 350px;
+    height: 200px;
+    position: relative;
+    background-color: tan;
+}
+
+#shopcast{
+    width: 350px;
+    height: 1809px;
+    margin-top: 15px;
+    background-color: skyblue;
+}
+#footer{
+    width: 1130px;
+    height: 331px;
+    padding: 0 30px 92px;
+}
+public_left{
+    width: 350px;
+    height: 86px;
 }
